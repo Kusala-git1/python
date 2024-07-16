@@ -1,0 +1,7 @@
+def sum_of_digits(number):
+    digit_sum = 0
+    for digit in str(number):
+        digit_sum += int(digit)
+    return digit_sum
+number =int(input())
+print(sum_of_digits(number))
