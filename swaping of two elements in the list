@@ -1,0 +1,11 @@
+list=[12,13,14,15,16]
+def swaplist(list,pos1,pos2):
+    n=len(list)
+    temp=list[pos1]
+    list[pos1]=list[pos2]
+    list[pos2]=temp
+    return list
+print("the elements after swapping",list)
+pos1=0
+pos2=4
+print(swaplist(list,pos1,pos2))
