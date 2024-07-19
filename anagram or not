@@ -1,0 +1,6 @@
+a=input()
+b=input()
+if (sorted(a)==sorted(b)):
+    print("it is an anagram")
+else:
+    print("it is not an anagram")
