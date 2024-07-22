@@ -1,0 +1,12 @@
+def median(l):
+     n=len(l)
+     sorted_list=sorted(l)
+     if n%2==0:
+         mid1=sorted_list[n//2-1]
+         mid2=sorted_list[n//2]
+         return(mid1+mid2)/2
+     else:
+         return sorted_list[n//2]
+numbers=input()
+print(median(numbers))         
+         
