@@ -7,6 +7,6 @@ def median(l):
          return(mid1+mid2)/2
      else:
          return sorted_list[n//2]
-numbers=input()
+numbers=[5,3,3,1,6]
 print(median(numbers))         
          
